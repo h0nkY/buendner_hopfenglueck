@@ -386,7 +386,8 @@ section {
 }
 
 .bottle-image {
-    width: 850px;
+    width: 100%;
+    max-width: 500px;
     height: auto;
     object-fit: contain;
     filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.3));
